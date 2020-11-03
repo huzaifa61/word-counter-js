@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box;
+  font-family:"Arial",san-serif;
+  outline:none;
+}
+body{
+  display:grid;
+  height:100vh;
+  place-items:center;
+  background-color:#9aa5b8;
+}
+
+textarea{
+  min-width:50vw;
+  min-height:50vh;
+  padding:10px 0px 0 10px;
+  background-color:transparent;
+  border:3px solid rgb(20, 0, 73);
+  border-radius:10px;
+  font-size:1.4em;
+  transition:0.3s
+}
+
+textarea:hover{
+  transition:0.3s;
+  border:3px solid #5e4cb0;
+}
